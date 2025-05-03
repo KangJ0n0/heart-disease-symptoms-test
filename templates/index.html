@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Diagnosa Penyakit Jantung</title>
+  </head>
+  <body>
+    <h2>Form Diagnosa Gejala Penyakit Jantung</h2>
+    <form action="/predict" method="post">
+      <input type="number" name="age" placeholder="Usia" required /><br />
+      <input type="number" name="sex" placeholder="Jenis Kelamin (1=L, 0=P)" required /><br />
+      <input type="number" name="cp" placeholder="Tipe Nyeri Dada" required /><br />
+      <input type="number" name="trestbps" placeholder="Tekanan Darah" required /><br />
+      <input type="number" name="chol" placeholder="Kolesterol" required /><br />
+      <input type="number" name="fbs" placeholder="Gula Darah > 120 (1/0)" required /><br />
+      <input type="number" name="restecg" placeholder="EKG saat istirahat" required /><br />
+      <input type="number" name="thalach" placeholder="Detak Jantung Maksimum" required /><br />
+      <input type="number" name="exang" placeholder="Angina karena olahraga (1/0)" required /><br />
+      <input type="number" name="oldpeak" placeholder="Depresi ST" required /><br />
+      <input type="number" name="slope" placeholder="Kemiringan ST" required /><br />
+      <input type="number" name="ca" placeholder="Jumlah pembuluh besar (0-3)" required /><br />
+      <input type="number" name="thal" placeholder="Thalassemia (1-3)" required /><br />
+      <button type="submit">Diagnosa</button>
+    </form>
+  </body>
+</html>
